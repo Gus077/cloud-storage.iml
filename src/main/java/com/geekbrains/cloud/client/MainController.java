@@ -19,8 +19,6 @@ import javafx.scene.control.TextField;
 public class MainController implements Initializable {
 
     private static final int BUFFER_SIZE = 8192;
-
-
     public TextField clientPath;
     public TextField serverPath;
     public ListView<String> clientView;
